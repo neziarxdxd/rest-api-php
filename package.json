@@ -4,7 +4,7 @@
   "description": "this is for practice purposes only about REST API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "json:server":"json-server --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/raizengxd/rest-api-practice/issues"
   },
-  "homepage": "https://github.com/raizengxd/rest-api-practice#readme"
+  "homepage": "https://github.com/raizengxd/rest-api-practice#readme",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
 }
