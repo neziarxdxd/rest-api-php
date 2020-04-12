@@ -1,4 +1,4 @@
-# REST API using PHP (no framework)
+# REST API using PHP (generic)
 
 
 
